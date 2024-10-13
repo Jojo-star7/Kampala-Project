@@ -19,6 +19,7 @@ body {
   height: 100%;
   display: block;
 }
+
 .first-column img {
   border-radius: 12px;
 }
@@ -81,6 +82,23 @@ section.secondary {
 }
 p {
   margin: 0 auto;
+}
+.table-container {
+  margin-top: 32px;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  height: 0;
+}
+
+td {
+  width: fit-content;
+  height: fit-content;
+}
+td img {
+  border-radius: 10px;
+  filter: grayscale(50%);
 }
 
 header {
