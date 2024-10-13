@@ -31,17 +31,7 @@ body {
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
-.grid.container {
-  margin-top: 32px;
-  grid-gap: 10px;
-}
-.grid-4-columns img {
-  border-radius: 10px;
-}
-.grid-4-columns {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-}
+
 .card-header.grid {
   grid-gap: 0;
 }
